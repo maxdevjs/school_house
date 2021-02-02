@@ -42,6 +42,9 @@ module.exports = {
                 color: theme('colors.white'),
               }
             },
+            'ul > li': {
+              'z-index': '-1'
+            },
           }
         }
       }),
